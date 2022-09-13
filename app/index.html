@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
     <head>
         <!-- Basic Meta Tags -->
         <meta charset="UTF-8">
@@ -12,6 +16,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         
         <!-- OG Tags -->
         <meta property="og:site_name" content="Ijal Fauzi">
@@ -19,13 +24,13 @@
         <meta property="og:description" content="Web & outdoor enthusiast">
         <meta property="og:image" content="https://ijal.me/assets/images/ijalfauzi_meta.jpg">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://ijal.me/">
+        <meta property="og:url" content="https://ijalfauzi.com/">
         <meta property="og:image:type" content="image/jpeg">
         <meta property="og:image:width" content="300">
         <meta property="og:image:height" content="300">
 
         <!-- Twitter -->
-        <meta property="twitter:url" content="https://ijal.me/">
+        <meta property="twitter:url" content="https://ijalfauzi.com/">
         <meta property="twitter:title" content="Ijal Fauzi">
         <meta property="twitter:description" content="Web & outdoor enthusiast">
         <meta property="twitter:image" content="https://ijal.me/assets/images/ijalfauzi_meta.jpg">
@@ -33,6 +38,8 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
         <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+        <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
     </head>
     <body>
         <!-- PRELOADER -->
@@ -51,7 +58,7 @@
             <div class="shane_tm_modalbox_news">
                 <div class="box_inner">
                     <div class="close">
-                        <a href="#"><img class="svg" src="/fe/img/svg/cancel.svg" alt="" /></a>
+                        <a href="#"><i class="fa-regular fa-rectangle-xmark"></i></a>
                     </div>
                     <div class="description_wrap scrollable">
                     </div>
@@ -65,7 +72,7 @@
                     <div class="container bigger">
                         <div class="topbar_in">
                             <div class="logo">
-                                <a href="#"><img src="/images/navbar.webp" alt="Ijal Fauzi" /></a>
+                                <a href="#" title="Ijal Fauzi"><img src="assets/images/navbar.webp" alt="Ijal Fauzi" /></a>
                             </div>
                             <div class="my_trigger">
                                 <div class="hamburger hamburger--collapse-r">
@@ -81,10 +88,10 @@
                     <div class="container">
                         <div class="dropdown_inner">
                             <ul class="anchor_nav">
-                                <li class="current"><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li class="current"><a href="#home" title="Home">Home</a></li>
+                                <li><a href="#about" title="About">About</a></li>
+                                <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+                                <li><a href="#contact" title="Contact">Contact</a></li>
                                 <li><a href="https://ijalfauzi.com/blog" title="Blog Ijal Fauzi">Blog</a></li>
                             </ul>
                         </div>
@@ -97,14 +104,14 @@
             <div class="shane_tm_topbar">
                 <div class="topbar_inner">
                     <div class="logo">
-                        <a href="#"><img src="/images/navbar.webp" alt="Ijal Fauzi" /></a>
+                        <a href="#" title="Ijal Fauzi"><img src="assets/images/navbar.webp" alt="Ijal Fauzi" /></a>
                     </div>
                     <div class="menu">
                         <ul class="anchor_nav">
-                            <li class="current"><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li class="current"><a href="#home" title="Home">Home</a></li>
+                            <li><a href="#about" title="About">About</a></li>
+                            <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+                            <li><a href="#contact" title="Contact">Contact</a></li>
                             <li><a href="https://ijalfauzi.com/blog" title="Blog Ijal Fauzi">Blog</a></li>
                         </ul>
                     </div>
@@ -115,7 +122,7 @@
             <!-- HERO -->
             <div class="shane_tm_hero" id="home" data-style="one"> <!-- data-style values: one,two,three >> Empty is SQUARE shape -->
                 <div class="background">
-                    <div class="image" data-img-url="/images/background.webp"></div>
+                    <div class="image" data-img-url="assets/images/ijalfauzi-on-beach.webp"></div>
                 </div>
                 <div class="container">
                     <div class="content">
@@ -138,8 +145,8 @@
                         <div class="about_inner">
                             <div class="left">
                                 <div class="image">
-                                    <img src="/images/about.webp" alt="Ijal Fauzi" />
-                                    <div class="main" data-img-url="/images/about.webp"></div>
+                                    <img src="assets/images/about.webp" alt="Ijal Fauzi" />
+                                    <div class="main" data-img-url="assets/images/about.webp"></div>
                                 </div>
                             </div>
                             <div class="right">
@@ -151,7 +158,7 @@
                                     <p>I am a web programmer and a self-claimed outdoor enthusiast. I started my career as a blogger in early 2012 then became a freelance web developer. I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.</p>
                                 </div>
                                 <div class="shane_tm_button">
-                                    <a title="Download CV" href="https://ijalfauzi.showwcase.com/" download>Download CV</a>
+                                    <a title="Download CV" href="https://ijalfauzi.showwcase.com/" download><i class="fa-solid fa-download"></i> Download CV</a>
                                 </div>
                             </div>
                         </div>
@@ -186,9 +193,9 @@
                                 <li class="website">
                                     <div class="inner">
                                         <div class="entry shane_tm_portfolio_animation_wrap" data-title="Aviat" data-category="Website">
-                                            <a class="zoom" href="/images/aviat.webp">
-                                                <img src="/images/aviat-preview.webp" alt="Aviat" />
-                                                <div class="main" data-img-url="/images/aviat-preview.webp"></div>
+                                            <a class="zoom" href="assets/images/aviat.webp">
+                                                <img src="assets/images/aviat-preview.webp" alt="Aviat" />
+                                                <div class="main" data-img-url="assets/images/aviat-preview.webp"></div>
                                             </a>
                                         </div>
                                         <div class="mobile_title">
@@ -200,9 +207,9 @@
                                 <li class="blog">
                                     <div class="inner">
                                         <div class="entry shane_tm_portfolio_animation_wrap" data-title="Darsehsri" data-category="Blog">
-                                            <a class="zoom" href="/images/darsehsri.webp">
-                                                <img src="/images/darsehsri-preview.webp" alt="Darsehsri" />
-                                                <div class="main" data-img-url="images/darsehsri-preview.webp"></div>
+                                            <a class="zoom" href="assets/images/darsehsri.webp">
+                                                <img src="assets/images/darsehsri-preview.webp" alt="Darsehsri" />
+                                                <div class="main" data-img-url="assets/images/darsehsri-preview.webp"></div>
                                             </a>
                                         </div>
                                         <div class="mobile_title">
@@ -214,9 +221,9 @@
                                 <li class="blog">
                                     <div class="inner">
                                         <div class="entry shane_tm_portfolio_animation_wrap" data-title="Doodleinzig!" data-category="Blog">
-                                            <a class="zoom" href="/images/doodleinzig.webp">
-                                                <img src="/images/doodleinzig-preview.webp" alt="Doodleinzig!" />
-                                                <div class="main" data-img-url="images/doodleinzig-preview.webp"></div>
+                                            <a class="zoom" href="assets/images/doodleinzig.webp">
+                                                <img src="assets/images/doodleinzig-preview.webp" alt="Doodleinzig!" />
+                                                <div class="main" data-img-url="assets/images/doodleinzig-preview.webp"></div>
                                             </a>
                                         </div>
                                         <div class="mobile_title">
@@ -228,9 +235,9 @@
                                 <li class="blog">
                                     <div class="inner">
                                         <div class="entry shane_tm_portfolio_animation_wrap" data-title="Puisi Mas Aih" data-category="Blog">
-                                            <a class="zoom" href="/images/puisi-mas-aih.webp">
-                                                <img src="/images/puisi-mas-aih-preview.webp" alt="Doodleinzig!" />
-                                                <div class="main" data-img-url="images/puisi-mas-aih-preview.webp"></div>
+                                            <a class="zoom" href="assets/images/puisi-mas-aih.webp">
+                                                <img src="assets/images/puisi-mas-aih-preview.webp" alt="Doodleinzig!" />
+                                                <div class="main" data-img-url="assets/images/puisi-mas-aih-preview.webp"></div>
                                             </a>
                                         </div>
                                         <div class="mobile_title">
@@ -242,9 +249,9 @@
                                 <li class="branding">
                                     <div class="inner">
                                         <div class="entry shane_tm_portfolio_animation_wrap" data-title="AFCIS" data-category="Branding">
-                                            <a class="zoom" href="/images/afcis.webp">
-                                                <img src="/images/afcis.webp" alt="AFCIS" />
-                                                <div class="main" data-img-url="images/afcis.webp"></div>
+                                            <a class="zoom" href="assets/images/afcis.webp">
+                                                <img src="assets/images/afcis.webp" alt="AFCIS" />
+                                                <div class="main" data-img-url="assets/images/afcis.webp"></div>
                                             </a>
                                         </div>
                                         <div class="mobile_title">
@@ -256,9 +263,9 @@
                                 <li class="branding">
                                     <div class="inner">
                                         <div class="entry shane_tm_portfolio_animation_wrap" data-title="Marskitchen" data-category="Branding">
-                                            <a class="zoom" href="/images/marskitchen.webp">
-                                                <img src="/images/marskitchen.webp" alt="Marskitchen" />
-                                                <div class="main" data-img-url="images/marskitchen.webp"></div>
+                                            <a class="zoom" href="assets/images/marskitchen.webp">
+                                                <img src="assets/images/marskitchen.webp" alt="Marskitchen" />
+                                                <div class="main" data-img-url="assets/images/marskitchen.webp"></div>
                                             </a>
                                         </div>
                                         <div class="mobile_title">
@@ -315,10 +322,10 @@
                     <div class="container">
                         <div class="partners_inner">
                             <ul class="owl-carousel">
-                                <li class="item"><a href="https://caturelang.com" title="PT Catur Elang Perkasa"><img src="/images/catur-elang-perkasa.webp" alt="PT Catur Elang Perkasa" /></a></li>
-                                <li class="item"><a href="https://adikatirtadaya.co.id" title="PT Adika Tirta Daya"><img src="/images/adika-tirta-daya.webp" alt="PT Adika Tirta Daya" /></a></li>
-                                <li class="item"><a href="https://kp3.co.id" title="PT Karya Prima Putera Perkasa"><img src="/images/karya-prima-putera-perkasa.webp" alt="PT Karya Prima Putera Perkasa" /></a></li>
-                                <li class="item"><a href="https://seminmetalindonesia.com" title="PT Se Min Metal Indonesia"><img src="/images/semin-metal-indonesia.webp" alt="PT Se Min Metal Indonesia" /></a></li>
+                                <li class="item"><a href="https://caturelang.com" title="PT Catur Elang Perkasa"><img src="assets/images/catur-elang-perkasa.webp" alt="PT Catur Elang Perkasa" /></a></li>
+                                <li class="item"><a href="https://adikatirtadaya.co.id" title="PT Adika Tirta Daya"><img src="assets/images/adika-tirta-daya.webp" alt="PT Adika Tirta Daya" /></a></li>
+                                <li class="item"><a href="https://kp3.co.id" title="PT Karya Prima Putera Perkasa"><img src="assets/images/karya-prima-putera-perkasa.webp" alt="PT Karya Prima Putera Perkasa" /></a></li>
+                                <li class="item"><a href="https://seminmetalindonesia.com" title="PT Se Min Metal Indonesia"><img src="assets/images/semin-metal-indonesia.webp" alt="PT Se Min Metal Indonesia" /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -344,7 +351,7 @@
                                             <p>I'm happy with the service provided by Ijal, friendly and very understanding in handling ideas given by client.</p>
                                             <div class="author">
                                                 <div class="image">
-                                                    <div class="main" data-img-url="/images/rinrin-marinka.webp"></div>
+                                                    <div class="main" data-img-url="assets/images/rinrin-marinka.webp"></div>
                                                 </div>
                                                 <div class="short">
                                                     <h3 class="author"><span>Rinrin Marinka</span></h3>
@@ -358,7 +365,7 @@
                                             <p>Ijal's blog design is really cool. Fast loading, good design and appropriate font selection. Perfect for readers who want to spend long time to read.</p>
                                             <div class="author">
                                                 <div class="image">
-                                                    <div class="main" data-img-url="/images/galih-hidayatullah.webp"></div>
+                                                    <div class="main" data-img-url="assets/images/galih-hidayatullah.webp"></div>
                                                 </div>
                                                 <div class="short">
                                                     <h3 class="author"><span>Galih Hidayatullah</span></h3>
@@ -379,8 +386,7 @@
             <div class="shane_tm_section" id="contact">
                 <div class="shane_tm_talk">
                     <div class="background" id="talk">
-                        {{-- <a data-img-url="/images/ijalfauzi-contact.webp"></a> --}}
-                        <div class="overlay"></div>
+                         <div class="overlay"></div>
                     </div>
                     <div class="talk_inner">
                         <div class="text">
@@ -398,7 +404,7 @@
             <div class="shane_tm_mobalbox_contact">
                 <div class="box_inner">
                     <div class="close">
-                        <a href="#"><img class="svg" src="/fe/img/svg/cancel.svg" alt="" /></a>
+                        <a href="#"><i class="fa-solid fa-circle-xmark"></i></a>
                     </div>
                     <div class="description_wrap scrollable">
                         <div class="title">
@@ -444,25 +450,23 @@
                             <ul>
                                 <li>
                                     <div class="list_inner">
-                                        <img class="svg" src="/fe/img/svg/location.svg" alt="" />
+                                        <i class="fa-solid fa-location-dot"></i>
                                         <p>Bina Asih 3E, Jatiasih, Bekasi</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="list_inner">
-                                        <img class="svg" src="/fe/img/svg/phone.svg" alt="" />
+                                        <i class="fa-solid fa-phone"></i>
                                         <p><a href="tel:+6285156693620">+62 8515 669 3620</a></p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="list_inner">
-                                        <img class="svg" src="/fe/img/svg/share.svg" alt="" />
+                                        Find Me on:
                                         <ul class="social">
-                                            <li><a href="https://facebook.com/ijalfauzi" title="Facebook"><img class="svg" src="/fe/img/svg/social/facebook.svg"></a></li>
-                                            <li><a href="https://instagram.com/ijalfauzi" title="Instagram"><img class="svg" src="/fe/img/svg/social/instagram.svg"></a></li>
-                                            
-                                            <!-- If you want add or change svg images you can download here for free https://www.flaticon.com -->
-                                            
+                                            <li><a href="https://instagram.com/ijalfauzi" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://facebook.com/ijalfauzi" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://youtube.com/ijalfauzi" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -492,5 +496,13 @@
             
         </div>
         <!-- / WRAPPER ALL -->
+
+        <!-- SCRIPTS -->
+        <script src="/external/jquery.js"></script>
+        <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+        <script src="/external/plugins.js"></script>
+        <script src="/external/init.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>
+        <!-- /SCRIPTS -->
     </body>
 </html>
